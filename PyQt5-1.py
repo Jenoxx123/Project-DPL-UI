@@ -139,14 +139,14 @@ class MainWindow(QMainWindow):
         self.front_video_dropdown = QComboBox()
         self.front_video_dropdown.addItems([
             r'C:\FPT\DLP302m\Project\Otosaigon - Test camera hành trình Polaroid S205W chế độ 4K 24 fps ban ngày.mp4',
-            r'C:\FPT\DLP302m\Project\AnotherFrontCameraVideo.mp4'
+            r'C:\FPT\DLP302m\Project\TEST CAMERA HÀNH TRÌNH _ ÔTÔ _ TEST CAMERA JOURNEY _ CAR.mp4'
         ])
         self.front_video_dropdown.currentIndexChanged.connect(self.change_front_video)
         
         self.rear_video_dropdown = QComboBox()
         self.rear_video_dropdown.addItems([
             r'C:\FPT\DLP302m\Project\Video hành trình Full HD ban ngày Camera sau UTOUR.mp4',
-            r'C:\FPT\DLP302m\Project\AnotherRearCameraVideo.mp4'
+            r'C:\FPT\DLP302m\Project\Video hành trình Full HD ban đêm Camera sau UTOUR.mp4'
         ])
         self.rear_video_dropdown.currentIndexChanged.connect(self.change_rear_video)
         
